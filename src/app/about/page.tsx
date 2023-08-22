@@ -39,12 +39,12 @@ export default function About() {
                         </div> */}
                         <Line />
                         <div className="mx-12 min-h-[250px] justify-between xl:justify-start mt-20 xl:mx-16 text-center mb-10 flex flex-wrap">
-                            <NaverButton href='tteokbokk1' primary_color='#516794' />
-                            <TwitchButton href='stellive_official' primary_color='#516794' />
-                            <YoutubeButton href='@stellive_official' primary_color='#516794' />
-                            <TwitterButton href='StelLive_kr' primary_color='#516794' />
-                            {/* <EtcButton href='https://stellight.fans/#/schedules' primary_color='#516794' secondary_color="#9AB6F0" name='StelLight1' /> */}
-                            <a className={`${a_style} text-[#9ab6f0] xl:hover:bg-[#9ab6f0]`} href="https://stellight.fans/#/schedules" target="blank">StelLight</a>
+
+                            <NaverButton href='tteokbokk1' primary_color='primary'/>
+                            <TwitchButton href='stellive_official' primary_color='primary'/>
+                            <YoutubeButton href='@stellive_official' primary_color='primary'/>
+                            <TwitterButton href='StelLive_kr' primary_color='primary'/>
+                            <ButtonBase secondary_color='stellight' href='https://stellight.fans/#/schedule' primary_color="primary" name='StelLight'  /> {/*<- 아니 색깔 다르면 출력되고 이게 말인가 */}
                             <a className={`${a_dummy} border-white hover:cursor-default`} href="#" target="blank"></a>
                             <a className={`${a_dummy} border-white hover:cursor-default`} href="#" target="blank"></a>
                         </div>
