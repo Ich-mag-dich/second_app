@@ -13,7 +13,6 @@ import NaverButton from '@/components/button/NaverButton';
 import TwitchButton from '@/components/button/TwitchButton';
 import YoutubeButton from '@/components/button/YoutubeButton';
 import TwitterButton from '@/components/button/TwitterButton';
-import EtcButton from '@/components/button/EtcButton';
 import ButtonBase from "@/components/button/ButtonBase"
 import Line from '@/components/Line';
 
@@ -40,11 +39,11 @@ export default function About() {
                         <Line />
                         <div className="mx-12 min-h-[250px] justify-between xl:justify-start mt-20 xl:mx-16 text-center mb-10 flex flex-wrap">
 
-                            <NaverButton href='tteokbokk1' primary_color='primary'/>
-                            <TwitchButton href='stellive_official' primary_color='primary'/>
-                            <YoutubeButton href='@stellive_official' primary_color='primary'/>
-                            <TwitterButton href='StelLive_kr' primary_color='primary'/>
-                            <ButtonBase secondary_color='stellight' href='https://stellight.fans/#/schedule' primary_color="primary" name='StelLight'  /> {/*<- 아니 색깔 다르면 출력되고 이게 말인가 */}
+                            <NaverButton href='tteokbokk1' primary_color='primary' />
+                            <TwitchButton href='stellive_official' primary_color='primary' />
+                            <YoutubeButton href='@stellive_official' primary_color='primary' />
+                            <TwitterButton href='StelLive_kr' primary_color='primary' />
+                            <ButtonBase secondary_color='stellight' href='https://stellight.fans/#/schedule' primary_color="primary" name='StelLight' /> {/*<- 아니 색깔 다르면 출력되고 이게 말인가 */}
                             <a className={`${a_dummy} border-white hover:cursor-default`} href="#" target="blank"></a>
                             <a className={`${a_dummy} border-white hover:cursor-default`} href="#" target="blank"></a>
                         </div>
