@@ -43,7 +43,7 @@ export default function About() {
                             <TwitchButton href='stellive_official' primary_color='primary' />
                             <YoutubeButton href='@stellive_official' primary_color='primary' />
                             <TwitterButton href='StelLive_kr' primary_color='primary' />
-                            <ButtonBase secondary_color='stellight' href='https://stellight.fans/#/schedule' primary_color="primary" name='StelLight' /> {/*<- 아니 색깔 다르면 출력되고 이게 말인가 */}
+                            <ButtonBase secondary_color='stellight' href='https://stellight.fans/#/schedules' primary_color="primary" name='StelLight' /> {/*<- 아니 색깔 다르면 출력되고 이게 말인가 */}
                             <a className={`${a_dummy} border-white hover:cursor-default`} href="#" target="blank"></a>
                             <a className={`${a_dummy} border-white hover:cursor-default`} href="#" target="blank"></a>
                         </div>
