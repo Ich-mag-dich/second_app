@@ -74,11 +74,11 @@ export default function Home() {
               </div>
               <div className="mx-10 xl:mx-0 xl:w-[500px] min-h-[150px] flex flex-wrap justify-between mt-20 xl:ml-16 text-center">
                 <a
-                  className={`${a_style} text-[#A970FF] xl:hover:bg-[#A970FF] `}
-                  href="https://twitch.tv/akanelize_stellive"
+                  className={`${a_style} text-[#00da8b] xl:hover:bg-[#00da8b] `}
+                  href="https://chzzk.naver.com/4325b1d5bbc321fad3042306646e2e50"
                   target="blank"
                 >
-                  Twitch
+                  Chzzk
                 </a>
                 <a
                   className={`${a_style} text-[#FF0000] xl:hover:bg-[#FF0000]`}
@@ -108,6 +108,11 @@ export default function Home() {
                 >
                   Naver Cafe
                 </a>
+                <a
+                  className={`${a_dummy} border-white hover:cursor-default`}
+                  href="#"
+                  target="blank"
+                ></a>
                 <a
                   className={`${a_dummy} border-white hover:cursor-default`}
                   href="#"

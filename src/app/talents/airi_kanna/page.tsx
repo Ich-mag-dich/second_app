@@ -69,11 +69,11 @@ export default function Home() {
               </div>
               <div className="mx-10 xl:mx-0 xl:w-[500px] min-h-[250px] flex flex-wrap justify-between mt-20 xl:ml-16 text-center mb-10">
                 <a
-                  className={`${a_style} text-[#A970FF] xl:hover:bg-[#A970FF] `}
-                  href="https://www.twitch.tv/airikanna_stellive"
+                  className={`${a_style} text-[#00da8b] xl:hover:bg-[#00da8b] `}
+                  href="https://chzzk.naver.com/f722959d1b8e651bd56209b343932c01"
                   target="blank"
                 >
-                  Twitch
+                  Chzzk
                 </a>
                 <a
                   className={`${a_style} text-[#FF0000] xl:hover:bg-[#FF0000]`}
