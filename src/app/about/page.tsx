@@ -41,7 +41,7 @@ export default function About() {
             <Line />
             <div className="mx-12 min-h-[250px] justify-between xl:justify-start mt-20 xl:mx-16 text-center mb-10 flex flex-wrap">
               <NaverButton href="tteokbokk1" primary_color="primary" />
-              <TwitchButton href="stellive_official" primary_color="primary" />
+              {/* <TwitchButton href="stellive_official" primary_color="primary" /> */}
               <YoutubeButton
                 href="@stellive_official"
                 primary_color="primary"

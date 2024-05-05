@@ -142,7 +142,7 @@ export default function RootLayout({
                 >
                   <Link
                     href="/"
-                    className="block py-2 pl-3 pr-4 xxx rounded font-bold  md:border-0  md:p-0  "
+                    className="block py-2 pl-3 pr-4 xxxxx rounded font-bold  md:border-0  md:p-0  "
                     aria-current="page"
                   >
                     HOME
@@ -167,7 +167,7 @@ export default function RootLayout({
                 <p className="hidden xl:p-[0.7rem] md:block cursor-default xxxx">
                   |
                 </p>
-                <li className="z-50 group relative dropdown xl:p-[0.7rem] xl:hover:bg-slate-400 transition-all xl:hover:drop-shadow-none rounded drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] xxx">
+                {/* <li className="z-50 group relative dropdown xl:p-[0.7rem] xl:hover:bg-slate-400 transition-all xl:hover:drop-shadow-none rounded drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] xxx">
                   <p
                     onClick={() => {
                       router.push(`/live`);
@@ -312,7 +312,7 @@ export default function RootLayout({
 
                 <p className="hidden xl:p-[0.7rem] md:block cursor-default xxxx">
                   |
-                </p>
+                </p> */}
                 <li
                   className="xl:p-[0.7rem] xl:hover:bg-slate-400 transition-all xl:hover:drop-shadow-none rounded drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] xxx z-0"
                   onClick={() => {

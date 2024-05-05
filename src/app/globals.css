@@ -56,6 +56,10 @@ blockquote p::after {
   .xxxx {
     margin-left: 0px !important;
   }
+  .xxxxx {
+    margin-left: 0px !important;
+    text-align: center !important;
+  }
   .article-topbar {
     padding-left: 3rem;
     padding-right: 3rem;
