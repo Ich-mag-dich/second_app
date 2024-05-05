@@ -121,8 +121,8 @@ export default function Home() {
                 </a>
                 <a
                   className={`${a_dummy} border-white hover:cursor-default`}
-                  href="#"
-                  target="blank"
+                  href="javascript:void(0)"
+                  target=""
                 ></a>
               </div>
             </div>
