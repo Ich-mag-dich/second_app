@@ -40,6 +40,12 @@ export default function About() {
                         </div> */}
             <Line />
             <div className="mx-12 min-h-[250px] justify-between xl:justify-start mt-20 xl:mx-16 text-center mb-10 flex flex-wrap">
+              <ButtonBase
+                secondary_color="stellight"
+                href="https://stellive.me/"
+                primary_color="primary"
+                name="Stellive.me"
+              />
               <NaverButton href="tteokbokk1" primary_color="primary" />
               {/* <TwitchButton href="stellive_official" primary_color="primary" /> */}
               <YoutubeButton
@@ -56,13 +62,13 @@ export default function About() {
               {/*<- 아니 색깔 다르면 출력되고 이게 말인가 */}
               <a
                 className={`${a_dummy} border-white hover:cursor-default`}
-                href="#"
-                target="blank"
+                href="javascript:void(0)"
+                target=""
               ></a>
               <a
                 className={`${a_dummy} border-white hover:cursor-default`}
-                href="#"
-                target="blank"
+                href="javascript:void(0)"
+                target=""
               ></a>
             </div>
             <div className="text-center">
