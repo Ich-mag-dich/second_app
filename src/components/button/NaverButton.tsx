@@ -8,6 +8,7 @@ const NaverButton = (props: IButtonProps) => {
       name="Naver Cafe"
       primary_color={props.primary_color}
       secondary_color="naver_cafe"
+      target="blank"
     />
   );
 };

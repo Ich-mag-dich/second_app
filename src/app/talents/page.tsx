@@ -249,6 +249,44 @@ export default function Home() {
               </div>
             </div>
           </Link>
+
+          <Link href="/talents/tenko_shibuki">
+            <div
+              className={`${divWidth} relative  rounded-2xl bg-white mx-4 mt-5 cursor-pointer xl:hover:shadow-xl xl:hover:scale-105 transform transition duration-500 ease-in-out`}
+              // style={{ boxShadow: "gray 0px 3px 6px 0px" }}
+            >
+              <div className="flex justify-between items-center w-[308px] absolute left-0 top-6 px-12">
+                <p className="hover:cursor-pointer flex-grow-0 flex-shrink-0 text-sm font-semibold text-center text-[#D8C5F9]">
+                  #3 Tenko Shibuki
+                </p>
+              </div>
+              <svg
+                width={251}
+                height={1}
+                viewBox="0 0 251 1"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="absolute left-0 top-[60.1px] px-12"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <line
+                  y1="0.6"
+                  x2={251}
+                  y2="0.6"
+                  stroke="#E4E5E7"
+                  stroke-width="0.8"
+                />
+              </svg>
+
+              <div className="flex inherit justify-center items-center text-center mx-auto w-[310px] top-[77px]">
+                <img
+                  alt="mashiro"
+                  className="w-auto rounded-2xl"
+                  src="/static/portrait/shibuki.webp"
+                ></img>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </main>

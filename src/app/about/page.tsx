@@ -45,6 +45,7 @@ export default function About() {
                 href="https://stellive.me/"
                 primary_color="primary"
                 name="Stellive.me"
+                target="blank"
               />
               <NaverButton href="tteokbokk1" primary_color="primary" />
               {/* <TwitchButton href="stellive_official" primary_color="primary" /> */}
@@ -58,6 +59,7 @@ export default function About() {
                 href="https://stellight.fans/#/schedules"
                 primary_color="primary"
                 name="StelLight"
+                target="blank"
               />{" "}
               {/*<- 아니 색깔 다르면 출력되고 이게 말인가 */}
               <a

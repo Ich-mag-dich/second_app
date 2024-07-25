@@ -8,6 +8,7 @@ const YoutubeButton = (props: IButtonProps) => {
       name="Youtube"
       primary_color={props.primary_color}
       secondary_color="youtube"
+      target="blank"
     />
   );
 };

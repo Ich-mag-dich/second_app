@@ -5,6 +5,7 @@ interface IButtonBaseProps {
   name: string;
   primary_color: string;
   secondary_color: string;
+  target: string;
 }
 
 export interface IButtonProps {
@@ -40,7 +41,7 @@ xl:mx-2 xl:hover:border-white xl:hover:text-white xl:hover:cursor-pointer ${prim
 `;
 
   return (
-    <a className={buttonStyle} href={props.href} target="blank">
+    <a className={buttonStyle} href={props.href} target={props.target}>
       {props.name}
     </a>
   );

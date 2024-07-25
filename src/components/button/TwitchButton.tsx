@@ -8,6 +8,7 @@ const TwitchButton = (props: IButtonProps) => {
       name="Twitch"
       secondary_color="twitch"
       primary_color={props.primary_color}
+      target="blank"
     />
   );
 };

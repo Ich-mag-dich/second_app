@@ -8,6 +8,7 @@ const TwitterButton = (props: IButtonProps) => {
       name="Twitter"
       primary_color={props.primary_color}
       secondary_color="twitter"
+      target="blank"
     />
   );
 };
